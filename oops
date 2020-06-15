@@ -1,21 +1,36 @@
-(example-1)
+(example-1):
 class love:
     name='druthi'
     address='vizag'
 print(love.name)
 print(love.address)
-(example-2)
+(example-2):
 class addition:
     a=22
     b=18
 print('first number=',addition.a)
 print('second number=',addition.b)
 print('result=',addition.a+addition.b)
-(example-3)
+(example-3):
 class love:
     def f1():
         print('get a good job')
     def f2():
-        print('marry a your love')
+        print('marry your love')
 love.f1()
 love.f2()
+(example-4):
+class addition:
+    def read():
+       addition.a=int(input('enter first number'))
+       addition.b=int(input('enter second number'))
+    def calculate():
+              addition.c=addition.a+addition.b
+    def display():
+              print('display the result')
+              print('first number=',addition.a)
+              print('second number=',addition.b)
+              print('result=',addition.c)
+addition.read()
+addition.calculate()
+addition.display()
