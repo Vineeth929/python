@@ -11,3 +11,11 @@ class addition:
 print('first number=',addition.a)
 print('second number=',addition.b)
 print('result=',addition.a+addition.b)
+(example-3)
+class love:
+    def f1():
+        print('get a good job')
+    def f2():
+        print('marry a your love')
+love.f1()
+love.f2()
