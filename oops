@@ -1,0 +1,5 @@
+class love:
+    name='druthi'
+    address='vizag'
+print(love.name)
+print(love.address)
