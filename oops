@@ -1,5 +1,13 @@
+(example-1)
 class love:
     name='druthi'
     address='vizag'
 print(love.name)
 print(love.address)
+(example-2)
+class addition:
+    a=22
+    b=18
+print('first number=',addition.a)
+print('second number=',addition.b)
+print('result=',addition.a+addition.b)
