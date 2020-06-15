@@ -34,3 +34,26 @@ class addition:
 addition.read()
 addition.calculate()
 addition.display()
+(example-5):
+class rectangle:
+    def read():
+        rectangle.l=int(input('enter length value'))
+        rectangle.b=int(input('enter breadth value'))
+    def find():
+        rectangle.area=rectangle.l*rectangle.b
+    def display():
+        print('area of rectangle=',rectangle.area)
+rectangle.read()
+rectangle.find()
+rectangle.display()
+(example-6):
+class circle:
+    def read():
+        circle.r=int(input('enter radius value'))
+    def find():
+        circle.area=3.14*circle.r*circle.r
+    def display():
+        print('area of circle=',circle.area)
+circle.read()
+circle.find()
+circle.display()
