@@ -57,3 +57,13 @@ class circle:
 circle.read()
 circle.find()
 circle.display()
+(______________"declare a object"_____________________)
+(example-1):
+class sample:
+    def f1(self):
+        print('tesla is a electric car')
+    def f2(self):
+        print('get a job in elonmusk company')
+s1=sample()
+s1.f1()
+s1.f2()
