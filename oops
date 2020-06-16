@@ -102,3 +102,10 @@ p1.read()
 p1.display()
 (_______"the self parameter"_______)
 (example-1):
+class sample:
+    def m1(self):
+        print('i love india')
+s1=sample()
+s1.m1()
+print(type(s1))
+_______(_init_)______
