@@ -88,3 +88,17 @@ t4.m2()
 t5=test()
 t5.m1()
 t5.m2()
+______("creating a object")_______
+(example-1):
+class person:
+    def read(x):
+        x.name=input('enter a person name')
+        x.age=int(input('enter a person age'))
+    def display(x):
+        print('name of person=',x.name)
+        print('age of person=',x.age)
+p1=person()
+p1.read()
+p1.display()
+(_______"the self parameter"_______)
+(example-1):
