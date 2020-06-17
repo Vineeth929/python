@@ -114,3 +114,15 @@ class sample:
     def __init__(self):
         print('never ever give up')
 s=sample()
+(example-2)
+class test:
+    def __init__(self):
+        self.a=22
+        self.b=18
+    def calculate(self):
+        print(self.a+self.b)
+        print(self.a-self.b)
+        print(self.a*self.b)
+        print(self.a%self.b)
+t1=test()
+t1.calculate()
