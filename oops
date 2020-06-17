@@ -169,3 +169,16 @@ class sample:
         print('adventure life')
 s=sample()
 del s
+____________inheritance_____________
+(example-1):
+class sample:
+    def m1(self):
+        print('never ever give up')
+class test(sample):
+    def m2(self):
+        print('become a ceo')
+c1=test()
+c1.m1()
+c1.m2()
+___________multilevel inheritance___________
+(example-1)
