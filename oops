@@ -109,3 +109,8 @@ s1=sample()
 s1.m1()
 print(type(s1))
 _______(_init_)______
+(example-1)
+class sample:
+    def __init__(self):
+        print('never ever give up')
+s=sample()
