@@ -148,6 +148,18 @@ class person:
         print('age of the person=',self.age)
 p1=person('vineeth',22)
 p1.display()
+(example-2)
+class emp:
+    def __init__(self,x,y,z):
+        self.eno=x
+        self.ename=y
+        self.sal=z
+    def display(self):
+        print('employe number=',self.eno)
+        print('employe name=',self.ename)
+        print('employe salary=',self.sal)
+t=emp(1998,'vineeth',10000000)
+t.display()
 (destructers in python):
 (example-1):
 class sample:
