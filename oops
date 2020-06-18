@@ -195,3 +195,28 @@ c1=c()
 c1.m1()
 c1.m2()
 c1.m3()
+____________multiple inheritance______________
+(example-1):
+class addition:
+    def add(self,x,y):
+        print(x+y)
+class subraction:
+    def sub(self,m,n):
+        print(m-n)
+class multiplication:
+    def mul(self,i,j):
+        print(i*j)
+class division:
+    def div(self,a,b):
+        print(a/b)
+class calculator(addition,subraction,multiplication,division):
+    def mod(self,p,q):
+        print(p%q)
+c1=calculator()
+c1.add(8,9)
+c1.sub(8,9)
+c1.mul(8,9)
+c1.div(8,9)
+c1.mod(8,9)
+_______________hierarichal inheritance__________________
+(example-1)
