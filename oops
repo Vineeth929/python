@@ -319,3 +319,26 @@ class test(sample):
         print('enjoy every movement')
 t1=test()
 t1.m1()
+____using constructor____
+(example-1):single inheritance
+class sample:
+    def __int__(self):
+        print('get a seat in uk')
+class test(sample):
+    def __init__(self):
+        super().__init__()
+        print('enjoy every movement')
+t1=test()
+(example-2):
+class a:
+    def __int__(self):
+        print('get a seat in uk')
+class b(a):
+    def __init__(self):
+        super().__init__()
+        print('enjoy every movement')
+class c(b):
+    def __init__(self):
+        super().__init__()
+        print('help for every person')
+c1=c()
