@@ -263,4 +263,12 @@ d1.m2()
 d1.m3()
 d1.m4()
 _______________________POLYMORPHISM_____________________________
-(EXAMPLE-1):
+(EXAMPLE-1):function based polymorphism
+a=10
+b=25
+c=35
+print(a)
+print(a,b)
+print(a,b,c)
+print('take every second')
+print('never ever give up'
