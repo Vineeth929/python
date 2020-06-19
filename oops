@@ -220,3 +220,28 @@ c1.div(8,9)
 c1.mod(8,9)
 _______________hierarichal inheritance__________________
 (example-1)
+class a:
+    def m1(self):
+        print('never ever give up')
+class b(a):
+    def m2(self):
+        print('bring back past')
+class c(a):
+    def m3(self):
+        print('bring love back')
+class d(a):
+    def m4(self):
+        print('marry her')
+b1=b()
+b1.m1()
+b1.m2()
+ 
+c1=c()
+c1.m1()
+c1.m3()
+
+d1=d()
+d1.m1()
+d1.m4()
+___________hybrid inheritance__________
+(example-1)
