@@ -287,3 +287,15 @@ print(a*b)
 c=('vineeth')
 print(c*a)
 print('druthi'*b)
+________________________________
+(example-1):class based polymorphism
+class sample:
+    def m1(self):
+        print('never ever give up')
+class test:
+    def m2(self):
+        print('bring love back')
+s1=sample()
+s1.m1()
+t1=test()
+t1.m2()
