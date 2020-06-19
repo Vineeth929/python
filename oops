@@ -299,3 +299,14 @@ s1=sample()
 s1.m1()
 t1=test()
 t1.m2()
+(example-1):this concept is called over riding or class based
+class sample:
+    def m1(self):
+        print('get a seat in uk')
+class test(sample):
+    def m1(self):
+        print('enjoy every movement')
+t1=test()
+t1.m1()
+_____________________super()________________________-
+(example-1)
