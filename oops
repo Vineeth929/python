@@ -272,3 +272,18 @@ print(a,b)
 print(a,b,c)
 print('take every second')
 print('never ever give up'
+______________________________________
+(example-1):operator based polymorphism
+a=10
+b=20
+print(a+b)
+c=('vineeth')
+d=('druthi')
+print(c+d)
+(example-2):
+a=5
+b=4
+print(a*b)
+c=('vineeth')
+print(c*a)
+print('druthi'*b)
