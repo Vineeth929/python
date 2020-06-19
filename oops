@@ -342,3 +342,27 @@ class c(b):
         super().__init__()
         print('help for every person')
 c1=c()
+(example-1):to demonstrate public,protected,private
+class sample:
+    a=10
+    _b=20
+    __c=30
+    def display():
+        print(sample.__c)
+        print(sample.a)
+        print(sample._b)
+sample.display()
+(example-2):
+class myself:
+    name='vineeth'
+    _address='bhimavaram'
+    _age=22
+    __bnkblce=1000000
+    __number=9553622229
+    def display():
+        print('bank balance=',myself.__bnkblce)
+        print('number of person=',myself.__number)
+        print('age of person=',myself._age)
+        print('address of person=',myself._address)
+        print('name of person=',myself.name)
+myself.display()
