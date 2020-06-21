@@ -8,10 +8,17 @@ print(type(x))
 i=iter(x)
 print(type(i))
 (example-3)
-x=[11,22,33,44,55]
-i=iter(x)
-print(next(i))
-print(next(i))
-print(next(i))
-print(next(i))
-print(next(i))
+try:
+    x=[11,22,33,44,55]
+    i=iter(x)
+    print(next(i))
+    print(next(i))
+    print(next(i))
+    print(next(i))
+    print(next(i))
+except:
+    print('no more elements in a given number')
+else:
+    print('iteration success...')
+finally:
+    print('thank you')
