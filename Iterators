@@ -22,3 +22,23 @@ else:
     print('iteration success...')
 finally:
     print('thank you')
+example-5
+class powertwo:
+    def __init__(self,m):
+        self.max=m
+    def __iter__(self):
+        self.n=1
+        return self
+    def __next__(self):
+        if self.n<=self.max:
+            res=self.n**2
+            self.n=self.n+1
+            return res
+        else:
+            raise stopiterator
+p=powertwo(4)
+i=iter(p)
+print(next(i))
+print(next(i))
+print(next(i))
+print(next(i))
