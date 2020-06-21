@@ -22,7 +22,7 @@ else:
     print('iteration success...')
 finally:
     print('thank you')
-example-5
+(example-4)
 class powertwo:
     def __init__(self,m):
         self.max=m
