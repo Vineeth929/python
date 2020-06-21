@@ -1,1 +1,9 @@
 (example-1):
+x=[11,22,33,44,55]
+for i in x:
+    print(i)
+(example-2):
+x=[11,22,33,44,55]
+print(type(x))
+i=iter(x)
+print(type(i))
