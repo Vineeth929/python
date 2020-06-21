@@ -7,3 +7,11 @@ x=[11,22,33,44,55]
 print(type(x))
 i=iter(x)
 print(type(i))
+(example-3)
+x=[11,22,33,44,55]
+i=iter(x)
+print(next(i))
+print(next(i))
+print(next(i))
+print(next(i))
+print(next(i))
