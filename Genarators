@@ -21,3 +21,13 @@ print(type(d1))
 next(d1)
 next(d1)
 next(d1)
+(example-3):write a programe to print 1 to 5 numbers
+def display():
+    num=1
+    print('to print numbers')
+    while num<=5:
+      yield num 
+      num=num+1
+values=display()
+for i in values:
+  print(i)
