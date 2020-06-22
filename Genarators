@@ -1,1 +1,10 @@
 (example-1):it is a normal function
+def display():
+    print('spacex')
+    return
+    print('tesla')
+    return
+    print('happy life')
+display()
+display()
+display()
