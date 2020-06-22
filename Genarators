@@ -8,3 +8,16 @@ def display():
 display()
 display()
 display()
+(example-2):it is generator function
+def display():
+    print('spacex')
+    yield
+    print('tesla')
+    yield
+    print('happy life')
+    yield
+d1=display()
+print(type(d1))
+next(d1)
+next(d1)
+next(d1)
