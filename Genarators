@@ -31,3 +31,12 @@ def display():
 values=display()
 for i in values:
   print(i)
+(example-4):write a programe to print 5 to 1 numbers
+def countdown(num):
+    print('countdown numbers')
+    while num>0:
+        yield num
+        num=num-1
+value=countdown(5)
+for i in value:
+    print(i)
