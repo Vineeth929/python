@@ -1,1 +1,21 @@
-(example-1):
+(example-1):multi line string
+x='''python is high level langauge
+     python is scripting language
+     python is oop langauge'''
+print(type(x))
+print(x)
+(example-1):accesing characters by using indexing
+s='python'
+print(s[0])
+print(s[1])
+print(s[5])
+print(s[-6])
+print(s[-2])
+(example-1):accesing string elements using slicing
+s='python is high level language'
+print(s[2:8:9])
+print(s[:10:5])
+print(s[:10:1])
+print(s[::3])
+print(s[::])
+print(s[::-1])
