@@ -74,3 +74,13 @@ print(s.swapcase())
 s='lEVEL'
 print(s)
 print(s.capitalize())
+(example-1):count()
+s= 'python'
+print(s.count('o'))
+print(s.count('t'))
+print(s.count('m'))
+(example-1):index()
+s='python'
+print(s.index('t'))
+print(s.index('o'))
+print(s.index('p'))
