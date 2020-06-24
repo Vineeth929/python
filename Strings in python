@@ -32,3 +32,24 @@ s3='druthi'
 print(s1*5)
 print(s2*2)
 print(s3*4
+(example-1):len()
+s='python'
+print('no of characters in a string=',len(s))
+(example-1):lower()
+s='PYTHON'
+print(s.lower())
+(example-1):upper()
+s='python'
+print(s.upper())
+(example-1):replace()
+s='python is a best programming language'
+print(s)
+s1=s.replace('best','new')
+print(s1)
+(example-1):split()
+s='python is a best programming language'
+print(s)
+s1=s.split()
+print(s)
+print(type(s))
+print(type(s1))
