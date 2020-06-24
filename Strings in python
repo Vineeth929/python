@@ -19,3 +19,16 @@ print(s[:10:1])
 print(s[::3])
 print(s[::])
 print(s[::-1])
+(example-1):concatention operator(+)
+s1='vineeth'
+s2='loves'
+s3='druthi'
+s=s1+s2+s3
+print(s) 
+(example-1):string repetation(*)
+s1='vineeth'
+s2='loves'
+s3='druthi'
+print(s1*5)
+print(s2*2)
+print(s3*4
