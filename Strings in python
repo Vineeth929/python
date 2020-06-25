@@ -98,3 +98,8 @@ print(s.strip())
 s='  python  '
 print(s)
 print(s.strip())
+(example-1):format()
+a=10
+b=20
+c=a+b
+print('sum of {} and {} is:{}'.format(a,b,c))
