@@ -84,3 +84,17 @@ s='python'
 print(s.index('t'))
 print(s.index('o'))
 print(s.index('p'))
+(EXAMPLE-1):istrip()
+s='     python'
+print(s)
+print(len(s))
+print(s.istrip())
+print(len(s.istrip()))
+(example-1):rstrip()
+s='python    '
+print(s)
+print(s.strip())
+(example-1):strip()
+s='  python  '
+print(s)
+print(s.strip())
