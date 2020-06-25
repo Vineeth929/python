@@ -103,3 +103,33 @@ a=10
 b=20
 c=a+b
 print('sum of {} and {} is:{}'.format(a,b,c))
+(example-1):write a pragramme to read string and print it
+s=input('enter any string')
+print('entered string is:',s)
+
+import keyword
+s=input('enter any word')
+if keyword.iskeyword(s):
+    print(s,'is keyword')
+else:
+    print(s,'is not a keyword')
+    
+s=input('enter any string')
+print('length=',len(s))
+(example-1):
+s=input('enter any string')
+l=0
+for i in s:
+    l=l+1
+print('no.of characters=',l)
+(example-1):write a programme to find the no.of charaters and no.of words
+s=input('enter any string')
+nc=0
+nw=1
+for i in s:
+    if i=='':
+        nw=nw+1
+    else:
+        nc=nc+1
+print('no of characters=',nc)
+print('no of words=',nw)
