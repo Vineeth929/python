@@ -1,0 +1,8 @@
+(EXAMPLE-1):to open a file and write the courses names:
+fp=open('names.txt','w')
+fp.write('dream to achieve:')
+fp.write('tesla\n')
+fp.write('spacex\n')
+fp.write('small conservation with elon musk\n')
+fp.write('make things happen\n')
+fp.close()
