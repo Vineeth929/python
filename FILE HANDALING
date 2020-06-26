@@ -54,3 +54,17 @@ with open('achievernames.txt','w') as fo:
     fo.write('STEPHAN HAWIKING\n')
     fo.write('ABDUL KALAM\n')
     fo.write('NARENDRA MODI\n')
+(example-1):to copy image one file to another file
+fo1=open('C:/Users/lenovo/Downloads/space-astronaut-sci-fi-uhdpaper.com-4K-111.jpg','rb')
+fo2=open('C:/Users/lenovo/Downloads/space.jpg','wb')
+x=fo1.read()
+fo2.write(x)
+fo1.close()
+fo2.close()
+(example-1):write a programme to copy one file to another file
+fo1=open('achievernames.txt','r')
+fo2=open('xyz.txt','w')
+x=fo1.read()
+fo2.write(x)
+fo1.close()
+fo2.close()
