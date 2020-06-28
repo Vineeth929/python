@@ -68,3 +68,19 @@ x=fo1.read()
 fo2.write(x)
 fo1.close()
 fo2.close()
+(example-1):write a programme to find the no of words,lines,characters
+fp=open('achievernames.txt','r')
+nl=0
+nw=0
+nc=0
+x=fp.readlines()
+for i in x:
+    nl=nw+1
+    word=i.split()
+    nw=nw+len(word)
+    for j in i:
+        if j!=''and j!='\n':
+            nc=nc+1
+print('no of lines=',nl)
+print('no of words=',nw)
+print('no of characters=',nc)
