@@ -1,0 +1,62 @@
+'''(example-1):write a programme to import sqlite3
+import sqlite3
+print('sqlite module is imported')'''
+'''(example-1):write a programme to create database
+import sqlite3
+con=sqlite3.connect('test.db')
+print('database created...')'''
+'''(example-1):write a programme to create cursor object and print sqlite version
+import sqlite3
+con=sqlite3.connect('test.db')
+cursor=con.cursor()
+cursor.execute('select sqlite_version()');
+record=cursor.fetchall()
+print(record)'''
+'''(example-1):write a programme to create student table
+import sqlite3
+con=sqlite3.connect('test.db')
+cursor=con.cursor()
+cursor.execute('create table student(htno int,sname char(20),m1 int,m2 int,m3 int)')
+print('student table created...') '''
+'''(example-1):write a programme to insert records into table
+import sqlite3
+con=sqlite3.connect('test.db')
+cursor=con.cursor()
+cursor.execute('INSERT INTO student VALUES(1001,"finn",88,99,77)')
+cursor.execute('INSERT INTO student VALUES(1002,"ken",77,88,99)')
+con.commit()
+print('two records inserted...')'''
+'''(example-1):to print the data from a student table
+import sqlite3
+con=sqlite3.connect('test.db')
+cursor=con.cursor()
+cursor.execute('select * from student')
+data=cursor.fetchall()
+for i in data:
+    for j in i:
+        print(j,end='')
+    print()'''
+'''(example-1):write a programme to modify exising data from a student table
+import sqlite3
+con=sqlite3.connect('test.db')
+cursor=con.cursor()
+cursor.execute('UPDATE STUDENT SET sname="kevin"where htno=1002')
+con.commit()
+cursor.execute('select * from student')
+data=cursor.fetchall()
+for i in data:
+    for j in data:
+        print(j,end='')
+    print()'''
+(example-1):write a programme to delete htno 1002 student from a table
+import sqlite3
+con=sqlite3.connect('test.db')
+cursor=con.cursor()
+cursor.execute('DELETE FROM student where htno=1002')
+con.commit()
+cursor.execute('select * from student')
+data=cursor.fetchall()
+for i in data:
+    for j in data:
+        print(j,end='')
+    print()
