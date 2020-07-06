@@ -60,3 +60,90 @@ for i in data:
     for j in data:
         print(j,end='')
     print()
+''' write a programme to create a student table
+import sqlite3
+con=sqlite3.connect('sample.db')
+con.execute("create table student(sno int,name char(20),m1 int(3), m2 int(3), m3 int(3))")
+print('student table created')
+con.close()'''
+'''(example-1):write a programme to insert 3 records into a student
+import sqlite3
+con=sqlite3.connect('sample.db')
+con.execute("insert into student values(1001,'xx',44,55,66)")
+con.execute("insert into student values(1002,'yy',99,99,99)")
+con.execute("insert into student values(1003,'zz',88,88,77)")
+con.commit()
+print('insertation operation success.....')
+con.close()'''
+'''(example-1):write a programme to retrive the data from the student
+import sqlite3
+con=sqlite3.connect('sample.db')
+cursor=con.cursor()
+cursor.execute('select * from student')
+data=cursor.fetchall()
+print(data)
+con.close()'''
+'''(example-2):
+import sqlite3
+con=sqlite3.connect('sample.db')
+cursor=con.cursor()
+cursor.execute('select * from student')
+data=cursor.fetchall()
+for i in data:
+    for j in i:
+        print(j,end='')
+        print()
+con.close()'''
+'''(example-1):write a programme to modify the student data
+import sqlite3
+con=sqlite3.connect('sample.db')
+cursor=con.cursor()
+cursor.execute('update student set m1=99 where sno=1001')
+cursor.execute('select * from student')
+data=cursor.fetchall()
+for i in data:
+    for j in data:
+        print(j,end='')
+        print()
+con.close()'''
+'''(example-1):write a programme to delete the records from student
+import sqlite3
+con=sqlite3.connect('sample.db')
+cursor=con.cursor()
+cursor.execute('delete from student where sno=1001')
+cursor.execute('select * from student')
+data=cursor.fetchall()
+for i in data:
+    for j in data:
+        print(j,end='')
+        print()
+con.close()'''
+'''(example-2):
+import sqlite3
+con=sqlite3.connect('sample.db')
+cursor=con.cursor()
+cursor.execute('delete from student')
+cursor.execute('select * from student')
+data=cursor.fetchall()
+for i in data:
+    for j in data:
+        print(j,end='')
+        print()
+con.close()'''
+'''(example-1):write a programme to drop the table
+import sqlite3
+con=sqlite3.connect('sample.db')
+con.execute('drop table student')
+con.close()
+print('table deleted...')'''
+'''(example-1):write a programme to retrive the student data
+import sqlite3
+con=sqlite3.connect('sample.db')
+cursor=con.cursor()
+cursor.execute('select * from student')
+data=cursor.fetchall()
+for i in data:
+    for j in data:
+        print(j,end='')
+        print()
+con.close()'''
