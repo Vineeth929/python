@@ -1,0 +1,32 @@
+'''
+print():
+a=10
+b=20
+c=30
+v='vineeth'
+print(a)
+print(a,b)
+print(a,b,c,v)'''
+'''example-1:
+print('faster you go to space slower you go time',end ='')
+print('theory of relativity have time dilation',end ='')'''
+'''example-2:
+day=22
+month=12
+year=2020
+print(day,month,year)
+print(day,month,year,sep =('/'))'''
+'''example-3:
+h=10
+m=20
+print(h,m)
+print(h,m, sep=(':'))'''
+'''example-4:
+a=int(input('enter first number'))
+b=int(input('enter second number'))
+c=int(input('enter third number'))
+d=b*b-4*a*c
+r1=(-b+d**0.5)/2*a
+r2=(-b-d**0.5)/2*a
+print('root 1=',r1)
+print('root 2=',r2)'''
