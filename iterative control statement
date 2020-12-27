@@ -1,0 +1,68 @@
+'''example-1:
+i=1
+while i<=5:
+    print('hello universe')
+    i=i+1'''
+'''example-2:
+i=1
+while i<=10:
+    print(i)
+    i=i+1'''
+'''example-3:
+i=1
+while i<=10:
+    print(i)
+    i=i+2'''
+'''example-4:
+i=2
+while i<=10:
+    print(i)
+    i=i+2'''
+'''example-5:
+n=input('enter which mathematical table u want')
+i=0
+while i<=10:
+    print(n,'*',i,'=',n*i)
+    i=i+1'''
+'''example-6:
+n=int(input('how many lines u want'))
+i=1
+while i<=n:
+      print('*'*i)
+      i=i+1'''
+'''example-7:
+n=int(input('how many line u want'))
+i=n
+while i>=1:
+    print('*'*i)
+    i=i-1'''
+'''example-1:
+for i in range (1,11,1):
+    print(i)'''
+'''example-2:
+for i in range (10,0,-1):
+    print(i)'''
+'''example-3:
+for i in range (2,11,2):
+    print(i)'''
+'''example-4:
+for i in range (1,11,2):
+    print(i)'''
+'''example-5:
+n=int(input('enter table number'))
+for i in range (1,11,1):
+    print(n,'*',i,'=',n*i)'''
+'''example-6:
+n=int(input('how many lines u want'))
+for i in range(1,n+1,1):
+      print('*'*i)'''
+'''example-7:
+n=int(input('how many lines u want'))
+for i in range(n,0,-1):
+    print('*'*i)'''
+'''example-8:
+n=int(input('how many lines u want'))
+for i in range(1,n+1,1):
+    print('*'*i)
+for i in range(n-1,0,-1):
+    print('*'*i)'''
